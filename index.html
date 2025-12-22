@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - AruCall</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #FFA000;
+            font-size: 32px;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #FFA000;
+            padding-bottom: 10px;
+        }
+        
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #FFA000;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #FFE082;
+        }
+        
+        h3 {
+            color: #FFA000;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 12px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+        
+        strong {
+            color: #333;
+            font-weight: 600;
+        }
+        
+        ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        ol li {
+            margin-bottom: 10px;
+        }
+        
+        a {
+            color: #FFA000;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 30px 0;
+        }
+        
+        .footer-note {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            font-weight: 600;
+            color: #555;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            h3 {
+                font-size: 18px;
+            }
+            
+            p, li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>プライバシーポリシー</h1>
+        <p class="last-updated">最終更新日：2025年12月</p>
+        
+        <h2>1. はじめに</h2>
+        <p>AruCall（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。本プライバシーポリシーは、本アプリがどのような情報を収集し、どのように使用するかについて説明しています。</p>
+        
+        <h2>2. 収集する情報</h2>
+        <p>本アプリでは、以下の情報を収集・保存します。</p>
+        
+        <h3>2.1 認証情報</h3>
+        <ul>
+            <li><strong>匿名ユーザーID</strong>：Supabaseによる匿名認証により生成される一意の識別子</li>
+            <li>本アプリは匿名ログインを使用しており、メールアドレス、パスワード、その他の個人を特定できる情報は収集しません。</li>
+        </ul>
+        
+        <h3>2.2 アプリ使用データ</h3>
+        <ul>
+            <li><strong>飲酒杯数</strong>：ユーザーが記録した累計の飲酒杯数</li>
+            <li><strong>表示名</strong>：アプリ内で使用するニックネーム（デフォルトは「ビールくん」）</li>
+            <li><strong>キャラクターレベル</strong>：飲酒杯数に基づいて算出されるレベル情報</li>
+            <li><strong>アプリ設定</strong>：通知設定などのアプリ内設定（デバイスのローカルストレージに保存）</li>
+        </ul>
+        
+        <h3>2.3 デバイス情報</h3>
+        <ul>
+            <li><strong>通知権限</strong>：iOSデバイスでの通知機能を使用するために必要な権限</li>
+            <li><strong>プッシュ通知トークン</strong>：Firebase Cloud Messagingによるプッシュ通知を送信するために必要なデバイストークン</li>
+            <li><strong>トラッキング許可状態</strong>（iOS）：App Tracking Transparencyによる広告トラッキング許可状態（ユーザーが許可した場合のみ）</li>
+        </ul>
+        
+        <h3>2.4 広告関連の情報</h3>
+        <p>本アプリでは、Google AdMobを使用して広告を表示しています。AdMobは以下の情報を収集する場合があります。</p>
+        <ul>
+            <li><strong>広告識別子</strong>：デバイスの広告ID（ユーザーがトラッキングを許可した場合）</li>
+            <li><strong>広告の表示・クリック情報</strong>：広告の効果測定のための統計情報</li>
+            <li><strong>デバイス情報</strong>：デバイスの種類、OSバージョン、言語設定など（広告の配信に使用）</li>
+        </ul>
+        <p>これらの情報は、Google AdMobのプライバシーポリシーに従って処理されます。</p>
+        
+        <h3>2.5 収集しない情報</h3>
+        <p>本アプリでは、以下の情報は収集していません。</p>
+        <ul>
+            <li>位置情報</li>
+            <li>連絡先情報</li>
+            <li>写真・画像</li>
+            <li>カメラ・マイクのアクセス</li>
+        </ul>
+        
+        <h2>3. 情報の保存と管理</h2>
+        
+        <h3>3.1 データ保存場所</h3>
+        <p>本アプリで収集した情報は、以下の場所に保存されます。</p>
+        <ul>
+            <li><strong>Supabaseデータベース</strong>：飲酒杯数、表示名、キャラクターレベルなどのアプリデータ（<a href="https://supabase.com" target="_blank" rel="noopener noreferrer">https://supabase.com</a>）</li>
+            <li><strong>デバイスローカルストレージ</strong>：通知設定などのアプリ設定（SharedPreferences）</li>
+            <li><strong>Firebase</strong>：プッシュ通知トークン（Google LLCが管理）</li>
+            <li><strong>Google AdMob</strong>：広告関連の統計情報（Google LLCが管理）</li>
+        </ul>
+        <p>データは暗号化され、安全に管理されます。</p>
+        
+        <h3>3.2 データアクセス制御</h3>
+        <ul>
+            <li>SupabaseデータベースにはRow Level Security (RLS)が適用されており、各ユーザーは自分のデータにのみアクセスできます。他のユーザーのデータを閲覧することはできません。</li>
+            <li>デバイスローカルストレージのデータは、そのデバイス内でのみアクセス可能です。</li>
+        </ul>
+        
+        <h2>4. 情報の使用目的</h2>
+        <p>収集した情報は、以下の目的でのみ使用されます。</p>
+        <ol>
+            <li><strong>アプリ機能の提供</strong>：飲酒杯数の記録と管理</li>
+            <li><strong>キャラクター成長システム</strong>：飲酒杯数に基づくレベル計算と表示</li>
+            <li><strong>データの永続化</strong>：アプリ再起動後もデータを保持するため</li>
+            <li><strong>プッシュ通知機能</strong>：お知らせを送信するため</li>
+            <li><strong>広告の表示</strong>：アプリの無料提供を維持するための広告配信</li>
+        </ol>
+        
+        <h2>5. 第三者サービス</h2>
+        <p>本アプリは以下の第三者サービスを使用しています。</p>
+        
+        <h3>5.1 Supabase</h3>
+        <ul>
+            <li><strong>提供元</strong>：Supabase Inc.</li>
+            <li><strong>用途</strong>：認証、データベース保存</li>
+            <li><strong>プライバシーポリシー</strong>：<a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">https://supabase.com/privacy</a></li>
+        </ul>
+        
+        <h3>5.2 Firebase（Google）</h3>
+        <ul>
+            <li><strong>提供元</strong>：Google LLC</li>
+            <li><strong>用途</strong>：プッシュ通知の送信（Firebase Cloud Messaging）</li>
+            <li><strong>収集する情報</strong>：プッシュ通知トークン、デバイス情報</li>
+            <li><strong>プライバシーポリシー</strong>：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+        </ul>
+        
+        <h3>5.3 Google AdMob</h3>
+        <ul>
+            <li><strong>提供元</strong>：Google LLC</li>
+            <li><strong>用途</strong>：広告の表示と配信</li>
+            <li><strong>収集する情報</strong>：広告識別子、デバイス情報、広告の表示・クリック情報（ユーザーがトラッキングを許可した場合）</li>
+            <li><strong>プライバシーポリシー</strong>：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+        </ul>
+        
+        <h3>5.4 Google Fonts</h3>
+        <ul>
+            <li><strong>提供元</strong>：Google LLC</li>
+            <li><strong>用途</strong>：アプリ内で使用するフォントの提供</li>
+            <li><strong>収集する情報</strong>：フォントのリクエスト時にIPアドレスが記録される場合があります</li>
+            <li><strong>プライバシーポリシー</strong>：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+        </ul>
+        
+        <h2>6. データの共有</h2>
+        <p>本アプリは、以下の場合を除き、収集した情報を第三者と共有することはありません。</p>
+        <ul>
+            <li>法的な要求がある場合</li>
+            <li>ユーザーの同意がある場合</li>
+        </ul>
+        
+        <h2>7. セキュリティ</h2>
+        <p>本アプリは、データの安全性を確保するために以下の対策を講じています。</p>
+        <ul>
+            <li>Supabaseの暗号化通信（HTTPS）</li>
+            <li>Row Level Security (RLS)によるデータアクセス制御</li>
+            <li>匿名認証による個人情報の最小化</li>
+            <li>Firebaseのセキュアな通信プロトコル</li>
+            <li>デバイスローカルストレージへの設定情報の安全な保存</li>
+        </ul>
+        <p>ただし、インターネット経由でのデータ送信は100%安全であることを保証することはできません。ユーザーは、本アプリの使用により生じるリスクを認識し、自己責任において使用するものとします。</p>
+        
+        <h3>7.1 広告トラッキングについて</h3>
+        <p>本アプリでは、App Tracking Transparency（ATT）を使用して、広告トラッキングの許可を求めます。ユーザーがトラッキングを許可しない場合でも、アプリの基本機能は利用可能です。ただし、広告のパーソナライゼーション機能は制限される場合があります。</p>
+        <p>広告トラッキングの設定は、iOSの設定アプリからいつでも変更できます。</p>
+        
+        <h2>8. 子どものプライバシー</h2>
+        <p>本アプリは、飲酒を記録するアプリの性質上、20歳未満の方を対象にしていません。そのため、意図的に13歳未満の子どもから個人情報を収集することはありません。</p>
+        
+        <h2>9. プライバシーポリシーの変更</h2>
+        <p>本プライバシーポリシーは、予告なく変更される場合があります。重要な変更があった場合は、アプリ内通知またはその他の方法でお知らせします。変更後もアプリを継続して使用される場合、変更後のプライバシーポリシーに同意したものとみなされます。</p>
+        
+        <h2>10. お問い合わせ</h2>
+        <p>プライバシーポリシーに関するご質問やご意見がございましたら、以下の方法でお問い合わせください。</p>
+        <ul>
+            <li>アプリ内のサポート機能</li>
+        </ul>
+        
+        <h2>11. 免責事項</h2>
+        <p>本アプリは飲酒記録アプリであり、医療アドバイスや法的助言を提供するものではありません。飲酒に関する判断は、ユーザー自身の責任において行ってください。</p>
+        
+        <hr>
+        
+        <p class="footer-note">本プライバシーポリシーは、AruCallアプリの使用条件の一部を構成します。</p>
+    </div>
+</body>
+</html>
+
